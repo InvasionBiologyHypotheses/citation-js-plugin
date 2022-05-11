@@ -1,0 +1,45 @@
+{
+  "name": "@enkore/citation-js-plugin",
+  "version": "0.1.0",
+  "description": "Citation.js Plugin for enKORE",
+  "keywords": [
+    "citation-js",
+    "wikidata",
+    "wikicite",
+    "enkore"
+  ],
+  "author": "steph.tyszka@igb-berlin.de",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib-mjs/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "homepage": "https://enkore.hi-knowledge.org/",
+  "repository": "https://github.com/InvasionBiologyHypotheses/citation-js-plugin",
+  "bugs": {
+    "url": "https://github.com/InvasionBiologyHypotheses/citation-js-plugin/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "lib",
+    "lib-mjs"
+  ],
+  "scripts": {
+    "test": "mocha -c -R dot test/*.spec.js"
+  },
+  "dependencies": {
+    "@citation-js/date": "^0.5.0",
+    "@citation-js/name": "^0.4.2",
+    "wikidata-sdk": "7"
+  },
+  "devDependencies": {
+    "@citation-js/core": "^0.5.4"
+  },
+  "peerDependencies": {
+    "@citation-js/core": "^0.5.0-alpha.0"
+  }
+}
