@@ -21,7 +21,7 @@ import * as api from "./api.js"
  * @memberof module:@citation-js/plugin-enkore
  * @default '@wikidata'
  */
-const ref = "@wikidata"
+const ref = "@enkore"
 
 /**
  * @access protected
